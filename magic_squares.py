@@ -5,13 +5,10 @@ def msquares(squares):
         [4, 9, 2],
         [3, 5, 7],
         [8, 1, 6]
-
     ]
-
     Args:
         squares (mxm list): square of multidimentional metrics
     """
-
     sum_rows = []
     sum_colum = dict()
     for i in range(len(squares)):
@@ -35,8 +32,6 @@ def msquares(squares):
         rsums = 0
 
     return sum_colum.values(), sum_rows, sum_diag
-
-
 msq = [
         [4, 9, 2],
         [3, 5, 7],
